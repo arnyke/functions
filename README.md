@@ -1,4 +1,4 @@
 functions
 =========
 
-testing new functions
+testing *new* functions
