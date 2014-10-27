@@ -1,5 +1,3 @@
- <?php
-
 ### ADD palindrom 
 ```
 function palindrom($a){
@@ -13,7 +11,7 @@ function palindrom($a){
     return $b == $c;
 }
 
-//echo(palindrom(1221)) ? 'DA' : 'NU', PHP_EOL;
+echo(palindrom(1221)) ? 'DA' : 'NU', PHP_EOL;
 ```
 ### ADD Divizori Comun
 ```
@@ -26,7 +24,7 @@ function divizorComun($a, $b){
     return $a;
 }
 
-//echo(divizorComun(9, 6));
+echo(divizorComun(9, 6));
 ```
 ### Fractii
 ```
@@ -41,7 +39,7 @@ function fractii($n){
     }
     return $count;
 }
-//echo fractii($argv[1]),PHP_EOL;
+echo fractii($argv[1]),PHP_EOL;
 ```
 
 
@@ -68,7 +66,7 @@ function ordonare($array){
     return $array;
 }
 
-/*$a  = array(2,4,1,10,5,-2);
+$a  = array(2,4,1,10,5,-2);
 print_r(ordonare($a));
 echo PHP_EOL;
 ```
